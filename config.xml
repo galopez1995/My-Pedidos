@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.mba.cosmoagro"
+        versionCode = "10" 
+        version     = "1.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>MyPedidos.Net</name>
+
+    <description>
+        MyPedidos.Net Incauca S.A & Ingenio Provivencia S.A. 
+    </description>
+
+    <author href="mba-software.com" email="info@mba-software.com">
+        MBA Software
+    </author>
+
+    <icon src="logo.png" />
+
+    <gap:platform name="android" />
+
+    <preference name="permissions" value="none"/>
+
+    <plugin name="com.indigoway.cordova.whitelist.whitelistplugin" spec="1.1.1" source="pgb" />
+
+    <feature name="http://api.phonegap.com/1.0/network"/>
+
+	<access origin="*" />
+<allow-navigation href="*" />
+<allow-navigation href="http://*/*" />
+<allow-navigation href="https://*/*" />
+<allow-navigation href="tel:*" />
+<allow-navigation href="sms:*" />
+<allow-navigation href="mailto:*" />
+<allow-navigation href="geo:*" />
+
+</widget>
